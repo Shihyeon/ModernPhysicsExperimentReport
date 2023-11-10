@@ -1,0 +1,254 @@
+%	현대물리실험 보고서
+%	실험4
+%	202100973 이승엽
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper, 10pt, nanum]{CSUniSchoolLabReport}
+% use UTF8 encoding
+\usepackage[utf8]{inputenc}
+% use KoTeX package for Korean
+\usepackage{kotex}
+% use ams' math font
+\usepackage{amsmath}
+\usepackage{hyperref}
+% use table
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{epstopdf}
+% use captions
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{blindtext}
+% use layout frame
+\usepackage{showframe}
+
+% only for show page layout
+\renewcommand\ShowFrameLinethickness{0.25pt}
+\renewcommand*\ShowFrameColor{\color{red}}
+
+\setlength{\parindent}{0.2in} % 들여쓰기 길이 설정
+\setlength{\parskip}{3mm} % 문단 간의 간격 조절
+\setstretch{1.5} % 줄간격
+% \graphicpath{{Figures/}} % fig 경로 설정
+
+\addbibresource{reference.bib} % Bibliography file (located in the same folder as the template)
+
+%----------------------------------------------------------------------------------------
+%	REPORT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{현대물리실험 실험4 보고서 \\ Scanning Tunneling Microscope} % Report title
+
+\author{\textsc{Department of Physics} 202100973 이승엽}
+
+\date{\today}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Insert the title, author and date using the information specified above
+
+\begin{center}
+	\begin{tabular}{l r}
+		Date Performed: & May 16, 2023 \\ % Date the experiment was performed
+		& May 23, 2023 \\
+		Partners: & 202100969 이규리 \\ % Partner names
+		& 202100989 한누리 \\
+		Instructor: & Professor 이기주 \\ % Instructor/supervisor
+		Typesetting: & LaTeX \\
+		Datafitting: & Python \\
+	\end{tabular}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\maketitle
+% \begin{abstract}
+% 	This report ...
+% \end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+
+  To
+
+%----------------------------------------------------------------------------------------
+%	THEORY
+%----------------------------------------------------------------------------------------
+
+\section{Theory}
+
+	% \begin{figure}[htb!]
+	% 	\centering
+	% 	\includegraphics[width=5cm]{fig1.png}
+	% 	\caption{Top : Simplified term diagram for neon.\\ Bottom : the electron current flowing to the collector as a function of the acceleration voltage in the Franck-Hertz	experiment with neon.}
+	% 	\label{fig:1}
+	% \end{figure}
+
+  J
+
+%----------------------------------------------------------------------------------------
+%	EXPERIMENTAL METHOD
+%----------------------------------------------------------------------------------------
+
+\section{Experimental Method}
+
+	% \begin{figure}[htb!]
+	% 	\centering
+	% 	\includegraphics[width=5cm]{fig2.png}
+	% 	\caption{Schematic diagram of the Franck-Hertz tube, Ne.}
+	% 	\label{fig:2}
+	% \end{figure}
+d
+
+	% \begin{figure}[htb!]
+	% 	\centering
+	% 	\includegraphics[width=5cm]{fig3.png}
+	% 	\caption{Experiment setup for Franck-Hertz experiment for neon.}
+	% 	\label{fig:3}
+	% \end{figure}
+
+\subsection{Carrying out the experiment}
+
+\subsubsection{Franck-Hertz curve:}
+	\begin{enumerate}[label=\arabic*.]
+		\item Record the Franck-Hertz curve (see preliminary remark). 
+	\end{enumerate}
+
+\subsubsection{Light emission:}
+	\begin{enumerate}[label=\arabic*.]
+		\item Set the operating mode switch to MAN. 
+		\item Optimize the acceleration voltage U2 until you can clearly see a red-yellow luminance zone between grids G1 and G2. 
+		\item Additionally, find the optimum acceleration voltages for two or three luminance zones and log these values. 
+	\end{enumerate}
+
+\subsection{Measuring example and evaluation}
+
+\subsubsection{Franck-Hertz curve:}
+	U1 = 2.06 V, U3 = 7.94 V 
+
+	The distance between the vertical lines (these were placed by eye on the main points of the maxima) has an average value of DU2 = 18.5 V. This value is much closer to the excitation energies for the 3p-levels of neon (18.4 – 19.0 eV) than to the energies of the 3s-levels (16.6 – 16.9 eV). Thus, the probability of excitation to the latter due to inelastic electron collision is significantly less. The substructure in the measured curve shows that the excitation of the 3s-levels cannot be ignored altogether. Note that for double and multiple collisions, each combination of excitation of a 3s-level and a 3p-level occurs. 
+
+\subsubsection{Light emission:}
+	U1 = 2.06 V, U3 = 7.94 V 
+
+	The luminance layers are zones of high excitation density. They can be compared directly with the minima of the FranckHertz curve. Their spacing corresponds to an acceleration voltage U2 = 19 V. Therefore, an additional luminance layer is generated each time U2 is increased by approx. 19 V 
+
+	% \begin{figure}[htb!]
+	% 	\centering
+	% 	\includegraphics[width=5cm]{fig4.png}
+	% 	\caption{}
+	% 	\label{fig:4}
+	% \end{figure}
+
+	% \begin{figure}[htb!]
+	% 	\centering
+	% 	\includegraphics[width=5cm]{fig5.jpg}
+	% 	\caption{}
+	% 	\label{fig:5}
+	% \end{figure}
+
+%----------------------------------------------------------------------------------------
+%	RESULT AND DISCUSSION
+%----------------------------------------------------------------------------------------
+
+\section{Result and Discussion}
+
+% \subsection{Franck-Hertz curve:}
+% 	\begin{figure}[htb!]
+% 		\centering
+% 		\includegraphics[width=8cm]{fig6.pdf}
+% 		\caption{Data fitting for Franck-Hertz curve.}
+% 		\label{fig:6}
+% 	\end{figure}
+
+	Fig. 6은 0 V부터 80 V까지 $U_2$를 조절하여 전하의 흐름 데이터를 fitting한 것이다. 그래프를 분석하여 Tab. 1으로 정리한 것이다.
+
+	\begin{table}[htb!]
+		\label{tab:1}
+		\centering
+		\caption{전하의 흐름이 상승(peak)하는 부분이다.}
+		\begin{tabular}{c|c}
+				\noalign{\smallskip}\noalign{\smallskip}\hline\hline
+				$n$ & $U_2$ (V) \\
+			\hline
+				1 & 19 \\
+				2 & 36 \\
+				3 & 55 \\
+			\hline
+			\hline
+		\end{tabular}
+	\end{table}
+
+	이론적인 부분과 비교했을 때, 실 데이터와 약 30\% 차이가 나지만 그 간격과 그래프 모양을 보면 차이가 많지 않음을 볼 수 있다.
+
+% \subsubsection{Light emission:}
+% 	\begin{figure}[htb!]
+% 		\centering
+% 		\includegraphics[width=5cm]{fig7.1.png}
+% 		\caption{Light emission}
+% 		\label{fig:7}
+% 	\end{figure}
+
+	\begin{table}[htb!]
+		\label{tab:2}
+		\centering
+		\caption{전하의 흐름이 상승(peak)하는 부분이다.}
+		\resizebox{\textwidth}{!}{
+		\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ccc|cc}
+				\noalign{\smallskip}\noalign{\smallskip}\hline\hline
+				& $n$ & & $U_2$ (V) \\
+			\hline
+			& 1 & & 29.9 \\
+			& 2 & & 47.4 \\
+			& 3 & & 65.7 \\
+			\hline
+			\hline
+		\end{tabular*}
+		}
+	\end{table}
+
+	이론적인 부분과 비교했을 때, 오차가 1\% 내이기에 이론값과 차이가 없음을 알 수 있다.
+
+%----------------------------------------------------------------------------------------
+%	CONCLUSIONS
+%----------------------------------------------------------------------------------------
+
+\section{Conclusions}
+
+	Franck-Hertz experiment with neon에서 네온 원자에 속박된 전자가 양자화되어 있음을 확인할 수 있었다. 특히 Fig. 6을 보면 특정 peak에서 전류가 상승하는 것을 볼 수 있고, 이는 전하가 이동함을 뜻한다. 즉, 그 순간에 속박에서 풀려난다는 것을 알 수 있다. 또한, Fig. 7을 통해 orbit을 건널 때마다 에너지, 즉 빛이 방출됨을 볼 수 있었다.
+
+%----------------------------------------------------------------------------------------
+%	FITTING CODE FOR PYTHON
+%----------------------------------------------------------------------------------------
+
+\section{Fitting code for Python}
+
+% \begin{figure*}[htb!]
+% 	\centering
+% 	\includegraphics[width=8cm]{code1.png}
+% 	\label{fig:code}
+% \end{figure*}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+% \printbibliography % Output the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

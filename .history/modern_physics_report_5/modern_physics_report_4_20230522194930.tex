@@ -1,0 +1,173 @@
+%	현대물리실험 보고서
+%	실험4
+%	202100973 이승엽
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper, 10pt, nanum]{CSUniSchoolLabReport}
+% use UTF8 encoding
+\usepackage[utf8]{inputenc}
+% use KoTeX package for Korean
+\usepackage{kotex}
+% use ams' math font
+\usepackage{amsmath}
+\usepackage{hyperref}
+% use table
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{epstopdf}
+% use captions
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{blindtext}
+% use layout frame
+\usepackage{showframe}
+
+% only for show page layout
+\renewcommand\ShowFrameLinethickness{0.25pt}
+\renewcommand*\ShowFrameColor{\color{red}}
+
+\setlength{\parindent}{0.2in} % 들여쓰기 길이 설정
+\setlength{\parskip}{3mm} % 문단 간의 간격 조절
+\setstretch{1.5} % 줄간격
+% \graphicpath{{Figures/}} % fig 경로 설정
+
+\addbibresource{reference.bib} % Bibliography file (located in the same folder as the template)
+
+%----------------------------------------------------------------------------------------
+%	REPORT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{현대물리실험 실험4 보고서 \\ Scanning Tunneling Microscope} % Report title
+
+\author{\textsc{Department of Physics} 202100973 이승엽}
+
+\date{\today}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Insert the title, author and date using the information specified above
+
+\begin{center}
+	\begin{tabular}{l r}
+		Date Performed: & May 16, 2023 \\ % Date the experiment was performed
+		& May 23, 2023 \\
+		Partners: & 202100969 이규리 \\ % Partner names
+		& 202100989 한누리 \\
+		Instructor: & Professor 이기주 \\ % Instructor/supervisor
+		Typesetting: & LaTeX \\
+		Datafitting: & Python \\
+	\end{tabular}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\maketitle
+% \begin{abstract}
+% 	This report ...
+% \end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+
+  To
+
+%----------------------------------------------------------------------------------------
+%	THEORY
+%----------------------------------------------------------------------------------------
+
+\section{Theory}
+
+	% \begin{figure}[htb!]
+	% 	\centering
+	% 	\includegraphics[width=5cm]{fig1.png}
+	% 	\caption{Top : Simplified term diagram for neon.\\ Bottom : the electron current flowing to the collector as a function of the acceleration voltage in the Franck-Hertz	experiment with neon.}
+	% 	\label{fig:1}
+	% \end{figure}
+
+  J
+
+%----------------------------------------------------------------------------------------
+%	EXPERIMENTAL METHOD
+%----------------------------------------------------------------------------------------
+
+\section{Experimental Method}
+
+	% \begin{figure}[htb!]
+	% 	\centering
+	% 	\includegraphics[width=5cm]{fig2.png}
+	% 	\caption{Schematic diagram of the Franck-Hertz tube, Ne.}
+	% 	\label{fig:2}
+	% \end{figure}
+d
+
+%----------------------------------------------------------------------------------------
+%	RESULT AND DISCUSSION
+%----------------------------------------------------------------------------------------
+
+\section{Result and Discussion}
+
+	이규리
+	
+	\begin{table}[htb!]
+		\label{tab:2}
+		\centering
+		\caption{전하의 흐름이 상승(peak)하는 부분이다.}
+		\resizebox{\textwidth}{!}{
+		\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ccc|cc}
+				\noalign{\smallskip}\noalign{\smallskip}\hline\hline
+				& $n$ & & $U_2$ (V) \\
+			\hline
+			& 1 & & 29.9 \\
+			& 2 & & 47.4 \\
+			& 3 & & 65.7 \\
+			\hline
+			\hline
+		\end{tabular*}
+		}
+	\end{table}
+
+	이론적인 부분과 비교했을 때, 오차가 1\% 내이기에 이론값과 차이가 없음을 알 수 있다.
+
+%----------------------------------------------------------------------------------------
+%	CONCLUSIONS
+%----------------------------------------------------------------------------------------
+
+\section{Conclusions}
+
+	Franck-Hertz experiment with neon에서 네온 원자에 속박된 전자가 양자화되어 있음을 확인할 수 있었다. 특히 Fig. 6을 보면 특정 peak에서 전류가 상승하는 것을 볼 수 있고, 이는 전하가 이동함을 뜻한다. 즉, 그 순간에 속박에서 풀려난다는 것을 알 수 있다. 또한, Fig. 7을 통해 orbit을 건널 때마다 에너지, 즉 빛이 방출됨을 볼 수 있었다.
+
+%----------------------------------------------------------------------------------------
+%	FITTING CODE FOR PYTHON
+%----------------------------------------------------------------------------------------
+
+\section{Fitting code for Python}
+
+% \begin{figure*}[htb!]
+% 	\centering
+% 	\includegraphics[width=8cm]{code1.png}
+% 	\label{fig:code}
+% \end{figure*}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+% \printbibliography % Output the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

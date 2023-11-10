@@ -1,0 +1,175 @@
+%	현대물리실험 보고서
+%	실험4
+%	202100973 이승엽
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper, 10pt, nanum]{CSUniSchoolLabReport}
+% use UTF8 encoding
+\usepackage[utf8]{inputenc}
+% use KoTeX package for Korean
+\usepackage{kotex}
+% use ams' math font
+\usepackage{amsmath}
+\usepackage{hyperref}
+% use table
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{epstopdf}
+% use captions
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{blindtext}
+% use layout frame
+\usepackage{showframe}
+
+% only for show page layout
+\renewcommand\ShowFrameLinethickness{0.25pt}
+\renewcommand*\ShowFrameColor{\color{red}}
+
+\setlength{\parindent}{0.2in} % 들여쓰기 길이 설정
+\setlength{\parskip}{3mm} % 문단 간의 간격 조절
+\setstretch{1.5} % 줄간격
+% \graphicpath{{Figures/}} % fig 경로 설정
+
+\addbibresource{reference.bib} % Bibliography file (located in the same folder as the template)
+
+%----------------------------------------------------------------------------------------
+%	REPORT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{현대물리실험 실험4 보고서 \\ Scanning Tunneling Microscope} % Report title
+
+\author{\textsc{Department of Physics} 202100973 이승엽}
+
+\date{\today}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Insert the title, author and date using the information specified above
+
+\begin{center}
+	\begin{tabular}{l r}
+		Date Performed: & May 16, 2023 \\ % Date the experiment was performed
+		& May 23, 2023 \\
+		Partners: & 202100969 이규리 \\ % Partner names
+		& 202100989 한누리 \\
+		Instructor: & Professor 이기주 \\ % Instructor/supervisor
+		Typesetting: & LaTeX \\
+		Datafitting: & Python \\
+	\end{tabular}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\maketitle
+% \begin{abstract}
+% 	This report ...
+% \end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+
+Microscopy is one of the most exciting scientific techniques. The insight into small dimensions has led to a new understanding of the structure of materials and forms of life.
+With the help of the scanning tunneling microscope (STM) it is possible to look into the fascinating world of the atoms. This completely new microscopy technique works without focusing elements and features atomic resolution (laterally and vertically).
+The Scanning Tunneling Microscope was developed by Gerd Binnig and Heinrich Rohrer in the early 80’s at the IBM research laboratory in Ruschlikon, Switzerland. For this revolutionary innovation Binnig and Rohrer were awarded the Nobel prize in Physics in 1986.
+In the STM, a small sharp conducting tip is scanned across the sample’s surface, so close that the so-called ”tunneling current”can flow. With the help of that current the tip-sample distance can be controlled very precisely. Therefore an enormous resolution is achieved so that the atomic arrangement of metallic surfaces can be “probed”
+To be able to get such excellent pictures of atomic resolution is almost incredible, considering that the size of the atom in relation to the tip is that of a golf ball to a mountain.
+In the NaioSTM, a platinum-iridium tip is moved in three dimensions using piezo crystal translators that are driven with sub-nanometer precision.
+The sample to be examined approaches the tip within a distance of 1 nanometer (1 nm= 1I 1,000,000,000 m). Classical physics would prohibit the appearance of electrons in the small gap between a tip and a sample, but if a sharp tip and a conducting surface are put under a low voltage (U ∼0.1 V), a very small tunneling current (I∼ 1 nA) may nevertheless flow between tip and sample. This tunneling current is due to a quantum physics effect.
+The strength of the tunneling current depends exponentially on the distance between the tip and the sample (usually referred to as Z-Distance). This extreme dependence on the Z-Distance makes it possible to measure the tip-sample movement very precisely. One of the three piezo crystals, the Z-piezo, can now be used in a feedback loop that keeps the tunneling current constant by appropriately changing the Z-Distance.
+To obtain an image of the sample, the tip is scanned using the X- and Y-piezo crystals. The feedback loop will now let the tip follow the structure of the sample's surface. A height image can now be made by recording the position of the Z-feedback loop as a function of the XY-piezo position. This ”landscape” (or topography) of the atomic surface is then drawn line by line on the computer screen.
+The sample can also be scanned in a second mode: When the feedback loop is slowed down very much, the tip scans at a fixed distance from the sample (constant height mode). This time the variations in the tunneling current are measured and drawn line by line on the computer screen. However, this mode only works when the sample is atomically flat, because the tip would otherwise ”crash” into the sample. 
+
+
+%----------------------------------------------------------------------------------------
+%	THEORY
+%----------------------------------------------------------------------------------------
+
+\section{Theory}
+
+	% \begin{figure}[htb!]
+	% 	\centering
+	% 	\includegraphics[width=5cm]{fig1.png}
+	% 	\caption{Top : Simplified term diagram for neon.\\ Bottom : the electron current flowing to the collector as a function of the acceleration voltage in the Franck-Hertz	experiment with neon.}
+	% 	\label{fig:1}
+	% \end{figure}
+
+  J
+
+%----------------------------------------------------------------------------------------
+%	EXPERIMENTAL METHOD
+%----------------------------------------------------------------------------------------
+
+\section{Experimental Method}
+
+	% \begin{figure}[htb!]
+	% 	\centering
+	% 	\includegraphics[width=5cm]{fig2.png}
+	% 	\caption{Schematic diagram of the Franck-Hertz tube, Ne.}
+	% 	\label{fig:2}
+	% \end{figure}
+d
+
+%----------------------------------------------------------------------------------------
+%	RESULT AND DISCUSSION
+%----------------------------------------------------------------------------------------
+
+\section{Result and Discussion}
+
+	이
+
+	\begin{table}[htb!]
+		\label{tab:2}
+		\centering
+		\caption{전하의 흐름이 상승(peak)하는 부분이다.}
+		\resizebox{\textwidth}{!}{
+		\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ccc|cc}
+				\noalign{\smallskip}\noalign{\smallskip}\hline\hline
+				& $n$ & & $U_2$ (V) \\
+			\hline
+			& 1 & & 29.9 \\
+			& 2 & & 47.4 \\
+			& 3 & & 65.7 \\
+			\hline
+			\hline
+		\end{tabular*}
+		}
+	\end{table}
+
+%----------------------------------------------------------------------------------------
+%	CONCLUSIONS
+%----------------------------------------------------------------------------------------
+
+\section{Conclusions}
+
+	F
+
+%----------------------------------------------------------------------------------------
+%	FITTING CODE FOR PYTHON
+%----------------------------------------------------------------------------------------
+
+\section{Fitting code for Python}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+% \printbibliography % Output the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
