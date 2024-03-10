@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'modern_physics_report_3.blg'
+[117] biber-MSWIN64:340> INFO - === 
+[160] Biber.pm:419> INFO - Reading 'modern_physics_report_3.bcf'
+[266] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[280] bbl.pm:660> INFO - Writing 'modern_physics_report_3.bbl' with encoding 'UTF-8'
+[280] bbl.pm:763> INFO - Output to modern_physics_report_3.bbl
+[280] Biber.pm:131> WARN - The file 'modern_physics_report_3.bcf' does not contain any citations!
+[280] Biber.pm:133> INFO - WARNINGS: 1
